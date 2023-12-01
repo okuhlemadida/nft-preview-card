@@ -1,7 +1,8 @@
 # nft-preview-card
 
 ### Screenshot
-![image](https://github.com/okuhlemadida/nft-preview-card/assets/111228251/2d47bbf4-f342-4dac-9c45-aec112ec06ba)
+![image](https://github.com/okuhlemadida/nft-preview-card/assets/111228251/4473998b-9338-43fd-afb4-5ce6dc8f1469)
+
 
 ### Links
 
