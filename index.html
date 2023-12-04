@@ -12,23 +12,29 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
+    
     body{ background-color:hsl(217, 54%, 11%);
       margin: auto;
-      width: 1440px;
       }
-    div{ margin: auto;
+    .card{
       background-color: hsl(216, 50%, 16%);
       display: inline-block;
       border-radius: 15px;
-      padding: 20px;
+      padding: 30px;
       box-shadow: 10px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
       }
-    div img{ border-radius: 15px;
+    .card img{ border-radius: 15px;
       display: block;
       margin: auto;
       text-align: center;
       }
     table{display: inline-block;
+      inline-size: 40%;
       border-left: 100px;}
     .Ethereum{ color: hsl(178, 100%, 50%) ;}
     h2{color: hsl(178, 100%, 50%) ;}
@@ -41,7 +47,7 @@
   </style>
 </head>
 <body>
-  <div>
+  <div class="card">
     <img src="image-equilibrium.jpg" alt="image-equilibrium"><br>
 
     <h1>Equilibrium #3429</h1><br>
@@ -54,8 +60,8 @@
       <td><img src="icon-ethereum.svg" alt="icon-ethereum"></td>
       <td><h2> 0.041 ETH</h2></td>
     </tr>
-    </table class="clock">
-    <table> 
+    </table>
+    <table class="clock"> 
     <tr>
        <td><img src="icon-clock.svg" alt="icon-clock"></td>
         <td><p>3 days left</p></td>
